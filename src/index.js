@@ -16,11 +16,11 @@ ReactDOM.render(
     <ContractKitProvider
       networks={[Alfajores]}
       network={{
-        name: NetworkNames.Alfajores,
-        rpcUrl: 'https://alfajores-forno.celo-testnet.org',
-        graphQl: 'https://alfajores-blockscout.celo-testnet.org/graphiql',
-        explorer: 'https://alfajores-blockscout.celo-testnet.org',
-        chainId: 44787,
+        name: Celos,
+        rpcUrl: 'https://forno.celo.org',
+        graphQl: 'https://explorer.celo.orggraphiql',
+        explorer: 'https://explorer.celo.org',
+        chainId: 42220,
       }}
       dapp={{
         name: 'Celo Marketplace',
